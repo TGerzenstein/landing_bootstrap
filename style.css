@@ -1,0 +1,219 @@
+* {
+  margin: 0rem;
+  padding: 0rem;  
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Portada */
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    min-height: 28.125rem;
+    position: relative;
+}
+
+.caja-portada {
+   position: absolute;
+   right: 0%;
+   top: 36%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   width: 36%;
+}
+
+.primer-titulo {
+    display: flex;
+    justify-content: right;
+    padding-right: 1rem;
+    width: 75%;
+    background-color: #023E8A;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    clip-path: polygon(0 0, 7% 200%, 200% 0%);
+}
+
+.segundo-titulo {
+    display: flex;
+    justify-content: right;
+    padding-right: 1rem;
+    width: 100%;
+    background-color: #023E8A;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    clip-path: polygon(0 0, 7% 200%, 200% 0%);
+}
+
+.tercer-titulo {
+    display: flex;
+    justify-content: right;
+    padding-right: 1rem;
+    width: 90%;
+    background-color: #023E8A;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    clip-path: polygon(0 0, 7% 200%, 200% 0%);
+} 
+
+
+.texto-secundario {
+    min-width: min(60vw, 37.5rem);
+    width: 56%;
+    color: #023E8A;
+    padding: 6rem 0rem 3rem 2.80rem;
+    font-size: 1.6rem;
+}
+
+/* Formulario */
+
+.caja-formulario {
+    position: absolute;
+    left: 65%;
+    top: 80%;
+    width: 28%;
+    background-color: #fff;
+    color: #a0a0a0;
+    border: 0.063rem solid #a0a0a0;
+    box-shadow:  0rem 0rem 0.375rem 0.063rem rgb(91, 91, 91);
+    padding: 1.25rem 0.938rem 1.125rem;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 0.063rem solid #a0a0a0;
+    border-radius: 0%;
+    padding-left: 0rem;
+    padding-bottom: 0rem;
+}
+
+.boton-form {
+    margin-top: 1.563rem;
+    font-size: 1.25rem;
+}
+
+/* Galeria de productos */
+
+.seccion-paquetes {
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+}
+
+.paquetes-contenedor {
+    padding: 0.625rem 0.313rem;
+    margin: 1.875rem 0rem;
+}
+
+.paquete {
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.caja-titulos {
+    display: flex;
+    flex-direction: row;
+}
+
+.caja-1 {
+    width: 100%;
+    height: 100%;
+    padding-top: 0.90rem;
+    margin: 0rem;
+
+}
+
+.titulo-paquete {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0rem;
+}
+
+.titulo-destino {
+    font-weight: 600;
+    margin: 0rem;
+}
+
+
+.caja-2 {
+    width: 60%;
+    height: 60%;
+    margin: 0rem;
+}
+
+.seccion-paquetes img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0rem; 
+    padding: 0rem;
+}
+
+.overlay {
+   opacity: 2;
+   top: 50%;
+   left: 50%;
+   text-align: center;
+}
+
+.overlay p {
+   font-size: 1.563rem;
+   font-weight: bold;
+   margin-bottom: 0rem;
+}
+
+.texto-azul {
+    color: #023E8A;
+    font-size: 1.2rem;
+}
+
+.cuadrado-img {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.titulo-imagen {
+    margin: 0rem;
+    background-color: #023E8A;
+    color: #fff;
+}
+
+button {
+    background-color: #023E8A;
+    color: #fff;
+    border: 0rem;
+    font-weight: 800;
+    padding: 0.20rem 0.80rem;
+}
+
+.titulo-secundario {
+   padding: 0rem;
+   margin: 0rem;
+   font-size: 1rem;
+}
+
+.texto-descriptivo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(243, 243, 243);
+    padding: 3rem 0rem 2rem;
+    margin: 0rem;
+    font-size: 0.70rem;
+    color: #a0a0a0;
+}
+
+/* Media queries */
+
