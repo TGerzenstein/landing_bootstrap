@@ -10,121 +10,102 @@
           crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Liberty</title>
+    <title>Demo</title>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-  </header>
-  <!-- Seccion principal -->
-  <section class="principal">
-    <div class="d-flex flex-column">
-      <img src="imagenes/portada.jpg" class="img-fluid" alt="familia en una piscina">
-      <div class="col-6 col-md-6 col-lg-4 caja-portada">
-        <p class="primer-titulo">TUS VACACIONES</p>
-        <p class="segundo-titulo">EN PARAÍSOS NATURALES<p>
-        <p class="tercer-titulo">A PRECIOS INCREÍBLES.<p>
+  <!-- Hero -->
+  <div class="container-fluid">
+    <div class="row">
+      <div>
+        <img src="imagenes/portada.jpg" class="img-fluid" alt="hotel">
       </div>
     </div>
-  </section>
-  <section class="texto-secundario">
-    <div class="d-flex flex-column justify-content-start">
-      <p>No te pierdas esta oportunidad de disfrutar de los mejores 
-        paquetes <strong> All-inclusive de Brasil y el Caribe</strong> a precios promocionales.
-      </p> 
-    </div>
-    <!-- Formulario -->
-    <div class="container caja-formulario">
-      <div class="row">
-        <div class="col">
-          <div>
-            <label for="" class="form-label"></label>
-            <input id="" class="form-control" type="nombre" placeholder="Nombre">
+  </div>
+  <!-- Descripcion -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-8 col-xl-7">
+        <p class="texto-descripcion">No te pierdas esta oportunidad de disfrutar de los mejores 
+          paquetes <strong> All-inclusive de Brasil y el Caribe</strong> a precios promocionales.
+        </p> 
+      </div>
+      <!-- Formulario -->
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-5">
+        <form action="#" class="caja-form">
+          <p class="form-texto">INGRESÁ TUS DATOS Y TE CONTACTAREMOS A LA BREVEDAD:</p>
+          <div class="mb-2">
+            <label for="exampleInputNombre1" class="form-label"></label>
+            <input type="nombre" class="form-control" id="exampleInputNombre" 
+                   aria-describedby="emailHelp" placeholder="Nombre">
           </div>
-          <div>
-            <label for="" class="form-label"></label>
-            <input id="" class="form-control" type="" placeholder="Apellido">
+          <div class="mb-2">
+            <label for="exampleInputApellido1" class="form-label"></label>
+            <input type="apellido" class="form-control" id="exampleInputApellido" 
+                   aria-describedby="emailHelp" placeholder="Apellido">
           </div>
-          <div>
-            <label for="" class="form-label"></label>
-            <input id="" class="form-control" type="" placeholder="Teléfono">
+          <div class="mb-2">
+            <label for="exampleInputTelefono1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleInputTelefono" 
+                   aria-describedby="emailHelp" placeholder="Teléfono">
           </div>
-          <div>
-            <label for="emailInput" class="form-label"></label>
-            <input id="emailInput" class="form-control" type="email" placeholder="Mail">
+          <div class="mb-2">
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleInputEmail" 
+                   aria-describedby="emailHelp" placeholder="Mail">
           </div>
-          <div>
-            <label for="emailInput" class="form-label"></label>
-            <input id="emailInput" class="form-control" placeholder="Ciudad">
+          <div class="mb-2">
+            <label for="exampleInputCiudad1" class="form-label"></label>
+            <input type="ciudad" class="form-control" id="exampleInputCiudad"
+                   placeholder="Ciudad">
           </div>
-          <div class="d-flex flex-column justify-content-center align-items-center">
-            <button class="boton-form">ENVIAR</button>
+          <div class="text-center">
+            <button type="submit" class="btn-color">ENVIAR</button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
-  </section>
-  <!--   Galería de paquetes -->    
-  <section class="seccion-paquetes d-flex flex-column">
-    <div class="container paquetes-contenedor">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-6 texto-azul">
-          <div class="paquete">
-            <div class="caja-titulos">
-              <div class="caja-1">
+  </div>
+  <!-- Galería de paquetes -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="cajas-imagen">
+              <div class="cajas-img1">
                 <p class="titulo-paquete">RIVIERA MAYA</p>
                 <p class="titulo-destino">MÉXICO</p>
               </div>
-              <div class="caja-2">
-                <img src="imagenes/grand-palladium-hotels.png" alt="">
+              <div class="cajas-img2">
+                <img src="imagenes/grand-palladium-hotels.png" 
+                   class="img-logo d-flex float-end" alt="logo">
               </div>
             </div>
-            <div class="cuadrado-img">
-              <p class="text-center titulo-imagen">GRAND PALLADIUM COLONIAL</p>
-              <img src="imagenes/cuarto-hotel.jpg" alt="cama de hotel">
-              <div class="overlay text-center">
-                <div class="precio-paquete">$12.000</div>
-                <p>Precio por persona en base doble</p>
-                <button>RESERVÁ</button>
-              </div>
+            <img src="imagenes/cuarto-hotel.jpg" class="img-fluid" alt="habitacion">
+            <div class="card-img-overlay">
+              <button type="submit" class="btn-color">RESERVÁ</button>
             </div>
-            <p class="titulo-secundario"><strong>Incluye:</strong></p>
-            <p class="texto-descriptivo">Lorem ipsum dolor sit amet consectetur 
-              adipisicing elit. Repellat, facilis.</p>
-            <p class="titulo-secundario"><strong>Salida disponible:</strong></p>
-            <p class="texto-descriptivo">Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-6 texto-azul">
-          <div class="paquete">
-            <div class="caja-titulos">
-              <div class="caja-1">
-                <p class="titulo-paquete">RIVIERA MAYA</p>
-                <p class="titulo-destino">MÉXICO</p>
-              </div>
-              <div class="caja-2">
-                <img src="imagenes/grand-palladium-hotels.png" alt="">
-              </div>
-            </div>
-            <div class="cuadrado-img">
-              <p class="text-center titulo-imagen">GRAND PALLADIUM COLONIAL</p>
-              <img src="imagenes/cuarto-hotel.jpg" alt="cama de hotel">
-              <div class="overlay text-center">
-                <div class="precio-paquete">$12.000</div>
-                <p>Precio por persona en base doble</p>
-                <button>RESERVÁ</button>
-              </div>
-            </div>
-            <p class="titulo-secundario"><strong>Incluye:</strong></p>
-            <p class="texto-descriptivo">Lorem ipsum dolor sit amet consectetur 
-              adipisicing elit. Repellat, facilis.</p>
-            <p class="titulo-secundario"><strong>Salida disponible:</strong></p>
-            <p class="texto-descriptivo">Lorem ipsum dolor sit amet.</p>
+            <p class="titulo-1"><strong>Incluye:</strong></p>
+            <p class="titulo-2"> Lorem ipsum dolor sit amet 
+              consectetur, adipisicing elit.</p>
+            <p class="titulo-1"><strong>Salida disponible:</strong></p>
+            <p class="titulo-2"> Lorem ipsum dolor sit amet 
+              consectetur, adipisicing elit.</p>
           </div>
         </div>
       </div>
+ <!-- segunda caja -->
+    <div class="card text-bg-dark">
+     <img src="imagenes/cuarto-hotel.jpg" class="img-fluid" alt="...">
+     <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+     </div>
+    </div> 
     </div>
-  </section>
+  </div>
+  <!-- Footer -->
   <footer>
     <div class="container d-flex justify-content-center">
       <div class="row">
