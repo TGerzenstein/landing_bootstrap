@@ -6,6 +6,29 @@
 }
 
 
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    min-height: 110vh;
+    color: white;
+}
+ 
+.color-overlay {
+    font-size: 2.1rem;
+    min-height: 70vh;
+}
+ 
+.caja1, .caja2, .caja3 {
+    width: auto;
+    padding-left: 1.6rem;
+    padding-right: 1rem;
+    background-color: rgb(46, 51, 142);
+    clip-path: polygon(0 0, 12% 200%, 200% 0%);
+    font-weight: 700;
+}
+
+
+
 /* Descripcion */
 
 .texto-descripcion {
@@ -160,4 +183,11 @@ footer {
     .titulo-2 {
         font-size: 0.7rem;
     }
+
+    footer {
+        padding: 3rem 1.1rem 2rem;
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+
 }
