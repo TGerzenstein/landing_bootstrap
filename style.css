@@ -154,6 +154,21 @@ footer {
 
 @media screen and (max-width: 576px) {
     
+    
+    .color-overlay {
+        font-size: 1rem;
+        min-height: 60vh;
+    }
+ 
+    .caja1, .caja2, .caja3 {
+        width: auto;
+        padding-left: 1.6rem;
+        padding-right: 1rem;
+        background-color: rgb(46, 51, 142);
+        clip-path: polygon(0 0, 12% 200%, 200% 0%);
+        font-weight: 700;
+    }
+    
     .form-texto {
         font-size: 1rem;
         text-align: center;
