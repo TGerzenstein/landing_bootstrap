@@ -76,7 +76,15 @@ header {
 
 /* Galería de paquetes */
 
+.card {
+    border-radius: 0rem;
+    border: 0rem;
+    padding: 0rem;
+}
 
+.card:hover {
+    opacity: 0.7;
+}
 
 .titulo-paquete {
     font-size: 2rem;
@@ -91,59 +99,29 @@ header {
     color: #023E8A;
 }
 
-
-.container-img {
-    background: no-repeat center center;
-    background-size: cover;
-    background-image: url("imagenes/cuarto-hotel.jpg");
-    background-color: #ffffff;
-    width: 500px;
-    height: 500px;
-}
-
-.d-contenedor {
-    margin: 0px;
-    padding: 0px;
-}
-
-.card {
-    border: 0rem;
-    padding: 0rem;
-}
-
-.card:hover {
-    opacity: 0.7;
-}
-
-.caja-azul {
+.card-title {
     background-color: #023E8A;
-    margin-bottom: 30px;
     color: #fff;
-    padding: 1px 0px 3px;
 }
 
-.caja-text {
-    margin: 0px;
-    font-weight: 400;
+.card-img-overlay {
+    margin: 0rem;
+    position: none;
 }
- 
+
 .text {
-    width: 250px;
-    height: 150px;
     background-color: transparent;
     color: #023E8A;
-    position: absolute;
     z-index: 1;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
- 
 .background {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: #FFFFFF;
     padding: 10px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 40px;
 }
  
 .trans {
@@ -160,6 +138,7 @@ header {
 .titulo-2 {
     color: #023E8A;
     font-size: rem;
+
 }
 
 /* Footer */
