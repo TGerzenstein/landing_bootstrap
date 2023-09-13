@@ -190,6 +190,20 @@ footer {
         font-size: 0.8rem;
     }
 
+    .card-title {
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 0.2rem;
+    }
+
+    .card-text {
+        font-size: 1.4rem;
+    }
+
+    .btn-reserva {
+        font-size: 1.2rem;
+    }
+
     .titulo-1 {
         font-size: 0.8rem;
     }
